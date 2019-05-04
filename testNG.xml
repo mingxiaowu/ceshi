@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<suite name="testproj" parallel="false">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter" />
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+  </listeners>
+
+  <test name="testDemo1">
+    <classes>
+      <class name="com.demo.test.testclass"></class>
+    </classes>
+  </test>
+</suite>
