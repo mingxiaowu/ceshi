@@ -1,6 +1,6 @@
 package com.demo.test;
 
-import static com.com.framework.util.RequestBase.buildJsonrpcRequest;
+import static com.framework.util.RequestBase.buildJsonrpcRequest;
 
 import com.comm.util.HttpUtil;
 import org.testng.Assert;
